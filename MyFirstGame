@@ -1,0 +1,30 @@
+print("what's up, fucker")
+name = input("what's your fucking name? ")
+age = int(input("how fucking old are you? "))
+
+print("This fucker named", name, "is", age, "years old.")
+
+is_older = age >= 18
+
+if is_older:
+    print("this fucker is old enough to play")
+    wants_to_play = input("wanna play this fucking game?(yes/no) ").lower()
+    
+    if wants_to_play == "yes":
+        print("let's get this fucker started!")
+        
+        print("on the left you see a path that leads to a village, on the right yous see a path that leads to a forest")
+        left_or_right = input("do you want to go left or right? (left/right) ").lower()
+        if left_or_right == "left":
+            print("you walk towards the village and die")    
+        elif left_or_right == "right":
+            print("you walk towards the forest and die")
+        else:
+            print("are you stupid or something?")
+        
+    else:
+        print("then get the fuck out...")
+        
+else:
+    print("get the fuck outta here, child. you're too fucking young")
+    
